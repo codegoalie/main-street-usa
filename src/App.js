@@ -10,11 +10,11 @@ function App() {
         <HeaderMenu>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://blog.lineleader.io"
             target="_blank"
             rel="noopener noreferrer"
           >
-            About
+            Blog
           </a>
         </HeaderMenu>
         <AppLinks>
