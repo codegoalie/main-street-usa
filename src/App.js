@@ -17,10 +17,6 @@ function App() {
             Blog
           </a>
         </HeaderMenu>
-        <AppLinks>
-          <a href="/">Sign in</a>
-          <a href="/">Register</a>
-        </AppLinks>
       </Header>
     </AppContainer>
   );
@@ -48,13 +44,4 @@ const HeaderMenu = styled.div`
 
 const AppContainer = styled.div`
   width: 100vw;
-`;
-
-const AppLinks = styled.div`
-  position: absolute;
-  right: 2rem;
-
-  a {
-    margin-left: 1rem;
-  }
 `;
