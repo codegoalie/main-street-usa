@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.png";
 import styled from "styled-components";
+import ScheduleContainer from "./containers/ScheduleContainer.js";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </a>
         </HeaderMenu>
       </Header>
+      <ScheduleContainer />
     </AppContainer>
   );
 }
