@@ -30,6 +30,10 @@ const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Logo = styled.img`
