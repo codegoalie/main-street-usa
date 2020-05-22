@@ -14,6 +14,14 @@ function App() {
           <a className="App-link" href="https://dvcsearch.lineleader.io">
             DVC points search
           </a>
+          <a
+            className="App-link"
+            href="https://twitter.com/lineleaderpro"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
         </HeaderMenu>
       </Header>
     </AppContainer>
