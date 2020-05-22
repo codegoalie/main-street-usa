@@ -8,13 +8,11 @@ function App() {
       <Header>
         <Logo src={logo} className="App-logo" alt="logo" />
         <HeaderMenu>
-          <a
-            className="App-link"
-            href="https://blog.lineleader.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="App-link" href="https://blog.lineleader.io">
             Blog
+          </a>
+          <a className="App-link" href="https://dvcsearch.lineleader.io">
+            DVC points search
           </a>
         </HeaderMenu>
       </Header>
@@ -38,12 +36,15 @@ const Header = styled.div`
 
 const Logo = styled.img`
   width: 241px;
+  margin-bottom: 3rem;
 `;
 
 const HeaderMenu = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 1rem;
+  width: 100%;
+  max-width: 600px;
 `;
 
 const AppContainer = styled.div`
