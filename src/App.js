@@ -2,6 +2,8 @@ import React from "react";
 import logo from "./logo.png";
 import styled from "styled-components";
 
+import Heights from "./Heights";
+
 function App() {
   return (
     <AppContainer>
@@ -24,6 +26,7 @@ function App() {
           </a>
         </HeaderMenu>
       </Header>
+      <Heights />
     </AppContainer>
   );
 }
