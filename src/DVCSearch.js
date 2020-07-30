@@ -27,7 +27,7 @@ const DVCSearch = ({ index }) => {
               dates and point budget instantly. See room upgrades or resorts you
               never thought you could afford.
             </p>
-            <CTA href="https://dvc-search.lineleader.io?utm_source=home">
+            <CTA href="https://dvcsearch.lineleader.io?utm_source=home">
               Find a better stay now &rarr;
             </CTA>
           </Desc>
