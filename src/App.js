@@ -2,32 +2,36 @@ import React from "react";
 import logo from "./logo.png";
 import styled from "styled-components";
 
+import GlobalStyles from "./globalStyles";
+
+import DVCSearch from "./DVCSearch";
 import Heights from "./Heights";
 
 function App() {
   return (
-    <AppContainer>
-      <Header>
-        <Logo src={logo} className="App-logo" alt="logo" />
-        <HeaderMenu>
-          <a className="App-link" href="https://blog.lineleader.io">
-            Blog
-          </a>
-          <a className="App-link" href="https://dvcsearch.lineleader.io">
-            DVC points search
-          </a>
-          <a
-            className="App-link"
-            href="https://twitter.com/lineleaderpro"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </HeaderMenu>
-      </Header>
-      <Heights />
-    </AppContainer>
+    <>
+      <GlobalStyles />
+      <AppContainer>
+        <Header>
+          <Logo src={logo} className="App-logo" alt="logo" />
+          <HeaderMenu>
+            <a className="App-link" href="https://blog.lineleader.io">
+              Blog
+            </a>
+            <a
+              className="App-link"
+              href="https://twitter.com/lineleaderpro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </HeaderMenu>
+        </Header>
+        <DVCSearch index={0} />
+        <Heights index={1} />
+      </AppContainer>
+    </>
   );
 }
 
@@ -58,6 +62,4 @@ const HeaderMenu = styled.div`
   max-width: 600px;
 `;
 
-const AppContainer = styled.div`
-  width: 100vw;
-`;
+const AppContainer = styled.div``;
