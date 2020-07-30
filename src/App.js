@@ -51,7 +51,7 @@ const Header = styled.div`
 
 const Logo = styled.img`
   width: 241px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 `;
 
 const HeaderMenu = styled.div`
