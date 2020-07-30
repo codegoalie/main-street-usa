@@ -16,7 +16,7 @@ const DVCSearch = ({ index }) => {
   return (
     <ThemeProvider theme={getTheme(index)}>
       <ProductWrapper>
-        <ProductContainer flipped={true}>
+        <ProductContainer flipped={index % 2 !== 0}>
           <Desc>
             <h2>Disney Vacation Club Reverse Points Search</h2>
             <p>

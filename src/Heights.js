@@ -16,7 +16,7 @@ const Heights = ({ index }) => {
   return (
     <ThemeProvider theme={getTheme(index)}>
       <ProductWrapper>
-        <ProductContainer>
+        <ProductContainer flipped={index % 2 !== 0}>
           <Desc>
             <h2>Walt Disney World Height Requirements</h2>
             <p>
