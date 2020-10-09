@@ -23,6 +23,7 @@ export const ProductContainer = styled.div`
     props.flipped ? `${smallCol}fr ${bigCol}fr` : `${bigCol}fr ${smallCol}fr`};
   grid-template-areas: ${(props) =>
     props.flipped ? "'shot desc'" : "'desc shot'"};
+  text-align: ${(props) => (props.flipped ? "right" : "left")};
 `;
 
 ProductContainer.defaultProps = {
