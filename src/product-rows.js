@@ -56,9 +56,9 @@ export const CTA = styled.a.attrs((p) => {
   background-color: ${(p) => p.theme.color};
   color: ${(p) => p.theme.backgroundColor};
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 2rem 0.5rem;
   border-radius: 0.5rem;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06); // ease-in-quint
 
   &:hover {
     background-color: ${(p) => p.hoverColor.hex()};
